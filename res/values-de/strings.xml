@@ -176,7 +176,7 @@
     <string name="show_lockscreen_media_art_title">Mediencover anzeigen</string>
     <string name="lockscreen_media_art_options_title">Sperrbildschirm-Mediencover</string>
 
-	    <!-- QS advanced settings -->
+	<!-- QS advanced settings -->
     <string name="qs_column_rows_settings_title">QS-Panel-Einstellungen</string>
     <string name="status_bar_quick_qs_pulldown">Schnelles QS-Herunterziehen</string>
     <string name="quick_pulldown_none">Deaktiviert</string>
@@ -651,6 +651,7 @@
     <string name="ambient_notification_light_hide_aod_title">Nur Lichtimpuls anzeigen</string>
     <string name="ambient_notification_light_hide_aod_summary">Blenden Sie alle anderen Anzeigeelemente aus</string>
     <string name="ambient_notification_light_timeout_title">Zeitüberschreitung für Lichtimpuls</string>
+    <string name="aod_disabled">AOD ist deaktiviert</string>
     <string name="entry_infinite">Unendlich</string>
     <string name="entry_five_minute">5 Minuten</string>
     <string name="entry_ten_minute">10 Minuten</string>
