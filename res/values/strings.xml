@@ -805,4 +805,12 @@
     <string name="volume_panel_on_left_title">Volume Panel on Left</string>
     <string name="volume_panel_on_left_summary">Change volume panel from right side to left side</string>
 
+
+    <!-- Synthetic Clock Settings -->
+    <string name="lock_synthetic_clock_title">Synthetic Clock</string>
+    <string name="file_image_select_title">Select Image</string>
+    <string name="file_image_select_summary">Select a Custom Image"</string>
+    <string name="synthetic_clock_format_title">Synthetic Clock format</string>
+    <string name="synthetic_date_format_title">Synthetic Date format</string>
+
 </resources>
