@@ -670,4 +670,6 @@
     <string name="pulse_ambient_light_layout_title">Kantenlichtansicht</string>
     <string name="pulse_ambient_light_layout_solid">Solide</string>
     <string name="pulse_ambient_light_layout_faded">Verblasst</string>
+    <string name="pulse_ambient_light_show_always_title">Für alle Aufwach-Ereignisse anzeigen</string>
+    <string name="pulse_ambient_light_show_always_summary">Zeigen Sie Lichter für alle Aufwach-Ereignisse und nicht nur für Benachrichtigungen</string>
 </resources>
