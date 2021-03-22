@@ -667,4 +667,7 @@
     <string name="pulse_ambient_light_duration_summary">Legt die Animationsdauer für den Lichtimpuls fest</string>
     <string name="pulse_ambient_light_repeat_count_title">Wiederholungszahl</string>
     <string name="pulse_ambient_light_repeat_count_summary">Stellen Sie die maximale Wiederholungszahl ein. 0 für unendlich</string>
+    <string name="pulse_ambient_light_layout_title">Kantenlichtansicht</string>
+    <string name="pulse_ambient_light_layout_solid">Solide</string>
+    <string name="pulse_ambient_light_layout_faded">Verblasst</string>
 </resources>
