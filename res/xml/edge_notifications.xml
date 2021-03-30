@@ -19,11 +19,9 @@
         android:key="pulse_ambient_light"
         android:title="@string/edge_notifications_title">
 
-        <com.derp.support.preference.SystemSettingSwitchPreference
-            android:key="pulse_ambient_light"
-            android:title="@string/pulse_ambient_light_title"
-            android:summary="@string/pulse_ambient_light_summary"
-            android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="pulse_ambient_light_category"
+        android:title="@string/pulse_ambient_light_category" >
 
         <com.derp.support.preference.SystemSettingSwitchPreference
             android:key="ambient_notification_light_enabled"
@@ -35,8 +33,8 @@
             android:key="ambient_notification_light_hide_aod"
             android:title="@string/ambient_notification_light_hide_aod_title"
             android:summary="@string/ambient_notification_light_hide_aod_summary"
-            android:defaultValue="false"
-            android:dependency="ambient_notification_light_enabled"/>
+            android:dependency="ambient_notification_light_enabled"
+            android:defaultValue="false" />
 
         <com.derp.support.preference.SystemSettingListPreference
             android:key="ambient_notification_light_timeout"
@@ -48,7 +46,7 @@
             android:dependency="ambient_notification_light_enabled"
             android:summary="%s" />
 
-        <ListPreference
+        <com.derp.support.preference.SystemSettingListPreference
             android:key="ambient_notification_light_color_mode"
             android:title="@string/ambient_notification_light_color_mode_title"
             android:persistent="false"
@@ -61,29 +59,29 @@
             android:summary="@string/ambient_notification_light_color_summary"
             android:title="@string/ambient_notification_light_color_title"
             ledPreview="true"
-            android:defaultValue="0xFF3980FF" />
+            settings:defaultValue="0xFF3980FF" />
 
         <com.derp.support.preference.CustomSeekBarPreference
-            android:key="notification_pulse_duration"
+            android:key="ambient_light_duration"
             android:title="@string/pulse_ambient_light_duration_title"
             android:summary="@string/pulse_ambient_light_duration_summary"
             android:persistent="false"
             android:defaultValue="2"
             android:max="10"
-            android:min="1"
+            settings:min="1"
             settings:units="sec"
-            settings:interval="1"
-            android:dependency="pulse_ambient_light" />
+            settings:interval="1" />
 
         <com.derp.support.preference.CustomSeekBarPreference
-            android:key="notification_pulse_repeats"
+            android:key="ambient_light_repeat_count"
             android:title="@string/pulse_ambient_light_repeat_count_title"
             android:summary="@string/pulse_ambient_light_repeat_count_summary"
             android:persistent="false"
             android:defaultValue="0"
             android:max="10"
-            android:min="0"
-            settings:interval="1"
-            android:dependency="pulse_ambient_light" />
+            settings:min="0"
+            settings:interval="1" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
