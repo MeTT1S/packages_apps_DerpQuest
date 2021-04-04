@@ -25,3 +25,4 @@
     <include layout="@layout/master_setting_switch_bar" />
 
 </LinearLayout>
+
